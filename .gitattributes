@@ -1,2 +1,4 @@
 *.pt filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+crowd.mp4 filter=lfs diff=lfs merge=lfs -text
+crowd_output.mp4 filter=lfs diff=lfs merge=lfs -text
