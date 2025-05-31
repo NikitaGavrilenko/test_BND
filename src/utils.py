@@ -8,7 +8,6 @@ def draw_detections(frame, results):
             x1, y1, x2, y2 = map(int, box.xyxy[0])
             conf = box.conf.item()
 
-            # Рисуем прямоугольник
             cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
 
             # Подпись

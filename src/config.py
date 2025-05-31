@@ -6,7 +6,7 @@ class Config:
     DATA_DIR = BASE_DIR / 'data'
     MODELS_DIR = BASE_DIR / 'models'
 
-    # Параметры по умолчанию
+    # Основные параметры
     MODEL_NAME = 'yolov8x.pt'
     INPUT_VIDEO = 'crowd.mp4'
     CONF_THRESH = 0.4

@@ -1,8 +1,6 @@
 import cv2
-import numpy as np
 from ultralytics import YOLO
 from deep_sort_realtime.deepsort_tracker import DeepSort
-from pathlib import Path
 
 
 class CrowdDetector:
@@ -38,10 +36,10 @@ class CrowdDetector:
                 conf = box.conf.item()
                 detections.append(([x1, y1, x2 - x1, y2 - y1], conf, 'person'))
 
-        # Трекинг объектов
+        # Трекинг
         tracks = self.tracker.update_tracks(detections, frame=frame)
 
-        # Визуализация результатов
+        # Визуализация
         people_count = 0
         for track in tracks:
             if not track.is_confirmed():
@@ -50,12 +48,10 @@ class CrowdDetector:
             track_id = str(track.track_id)
             x1, y1, x2, y2 = map(int, track.to_ltrb())
 
-            # Безопасное получение confidence
             conf = getattr(track, 'get_det_conf', lambda: self.conf_thresh)()
             if conf is None:
                 conf = self.conf_thresh
 
-            # Генерация цвета
             color = self._get_color(track_id)
 
             # Отрисовка
