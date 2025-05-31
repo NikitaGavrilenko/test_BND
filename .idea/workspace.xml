@@ -13,8 +13,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crowd.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/crowd.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowd_output.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/crowd_output.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/crowd_output.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/processed_crowd.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/processed_crowd.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/download_weights.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov8n.pt" beforeDir="false" afterPath="$PROJECT_DIR$/models/yolov8n.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov8x.pt" beforeDir="false" afterPath="$PROJECT_DIR$/models/yolov8x.pt" afterDir="false" />
@@ -64,7 +65,28 @@
       <recent name="C:\Учёба\test_ex_BND\models" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.python models/download_weights.py (появятся файлы .pt)">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_ex_BND" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="test_ex_BND" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.python models/download_weights.py (появятся файлы .pt)" />
       </list>
     </recent_temporary>

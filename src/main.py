@@ -52,7 +52,8 @@ def process_video():
 
     # Статистика
     print(f"\nAverage people count: {sum(stats) / len(stats):.1f}")
-    print(f"Results saved to: {output_path}")
+    print(f"Max detected: {max(stats):.1f}")
+    print(f"\nResults saved to: {output_path}")
 
 
 if __name__ == "__main__":
